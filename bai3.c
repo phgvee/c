@@ -1,10 +1,8 @@
 #include <stdio.h>
 void NhapMaTran(int a[50][50], int m, int n)
 {
-    int i = 0;
-    for (i = 0; i < m; ++i)
+    for (int i = 0; i < m; ++i)
     {
-
         for (int j = 0; j < n; ++j)
         {
             scanf("%d", &a[i][j]);
@@ -63,4 +61,7 @@ int main()
             printf("\n");
         }
     }
+
+    printf("Hello");
+    
 }
